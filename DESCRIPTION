@@ -1,0 +1,13 @@
+Package: zotero
+Type: Package
+Title: Zotero import/export helpers
+Version: 0.0.0.9000
+Authors@R: person("Mauricio", "Vargas Sepulveda", email = "m.vargas.sepulveda@gmail.com", role = c("aut", "cre"))
+Description: Read Zotero exports (RDF, BibTeX, RIS) and convert to base R bibliographic objects; export to BibTeX, RIS,
+    or a Clarivate-friendly tabular format.
+License: Apache License (>= 2)
+Encoding: UTF-8
+LazyData: true
+Imports: xml2, utils, revtools
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.3.2
