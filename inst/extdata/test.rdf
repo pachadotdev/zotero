@@ -1,0 +1,332 @@
+<rdf:RDF
+ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+ xmlns:z="http://www.zotero.org/namespaces/export#"
+ xmlns:dcterms="http://purl.org/dc/terms/"
+ xmlns:bib="http://purl.org/net/biblio#"
+ xmlns:foaf="http://xmlns.com/foaf/0.1/"
+ xmlns:link="http://purl.org/rss/1.0/modules/link/"
+ xmlns:dc="http://purl.org/dc/elements/1.1/"
+ xmlns:prism="http://prismstandard.org/namespaces/1.2/basic/">
+    <bib:Article rdf:about="https://joss.theoj.org/papers/10.21105/joss.01866">
+        <z:itemType>journalArticle</z:itemType>
+        <dcterms:isPartOf rdf:resource="urn:issn:2475-9066"/>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Vargas</foaf:surname>
+                        <foaf:givenName>Mauricio</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <link:link rdf:resource="#item_55"/>
+        <dc:title>Economiccomplexity: Computational Methods for Economic Complexity</dc:title>
+        <dcterms:abstract>Vargas, (2020). Economiccomplexity: Computational Methods for Economic Complexity. Journal of Open Source Software, 5(46), 1866, https://doi.org/10.21105/joss.01866</dcterms:abstract>
+        <dc:date>2020/02/19</dc:date>
+        <z:language>en</z:language>
+        <z:shortTitle>Economiccomplexity</z:shortTitle>
+        <z:libraryCatalog>joss.theoj.org</z:libraryCatalog>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://joss.theoj.org/papers/10.21105/joss.01866</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2025-09-15 19:01:43</dcterms:dateSubmitted>
+        <bib:pages>1866</bib:pages>
+    </bib:Article>
+    <bib:Journal rdf:about="urn:issn:2475-9066">
+        <prism:volume>5</prism:volume>
+        <dc:title>Journal of Open Source Software</dc:title>
+        <dc:identifier>DOI 10.21105/joss.01866</dc:identifier>
+        <prism:number>46</prism:number>
+        <dc:identifier>ISSN 2475-9066</dc:identifier>
+    </bib:Journal>
+    <z:Attachment rdf:about="#item_55">
+        <z:itemType>attachment</z:itemType>
+        <dc:title>Full Text PDF</dc:title>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://joss.theoj.org/papers/10.21105/joss.01866.pdf</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2025-09-15 19:01:44</dcterms:dateSubmitted>
+        <z:linkMode>1</z:linkMode>
+        <link:type>application/pdf</link:type>
+    </z:Attachment>
+    <bib:Article rdf:about="https://joss.theoj.org/papers/10.21105/joss.01038">
+        <z:itemType>journalArticle</z:itemType>
+        <dcterms:isPartOf>
+            <bib:Journal>
+                <prism:volume>3</prism:volume>
+                <dc:title>Journal of Open Source Software</dc:title>
+                <dc:identifier>DOI 10.21105/joss.01038</dc:identifier>
+                <prism:number>31</prism:number>
+                <dc:identifier>ISSN 2475-9066</dc:identifier>
+            </bib:Journal>
+        </dcterms:isPartOf>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Wölwer</foaf:surname>
+                        <foaf:givenName>Anna-Lena</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Burgard</foaf:surname>
+                        <foaf:givenName>Jan Pablo</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Kunst</foaf:surname>
+                        <foaf:givenName>Joshua</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Vargas</foaf:surname>
+                        <foaf:givenName>Mauricio</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <link:link rdf:resource="#item_57"/>
+        <dc:title>Gravity: Estimation Methods for Gravity Models in R</dc:title>
+        <dcterms:abstract>Wölwer et al., (2018). Gravity: Estimation Methods for Gravity Models in R. Journal of Open Source Software, 3(31), 1038, https://doi.org/10.21105/joss.01038</dcterms:abstract>
+        <dc:date>2018/11/19</dc:date>
+        <z:language>en</z:language>
+        <z:shortTitle>Gravity</z:shortTitle>
+        <z:libraryCatalog>joss.theoj.org</z:libraryCatalog>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://joss.theoj.org/papers/10.21105/joss.01038</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2025-09-15 19:01:48</dcterms:dateSubmitted>
+        <bib:pages>1038</bib:pages>
+    </bib:Article>
+    <z:Attachment rdf:about="#item_57">
+        <z:itemType>attachment</z:itemType>
+        <dc:title>Full Text PDF</dc:title>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://joss.theoj.org/papers/10.21105/joss.01038.pdf</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2025-09-15 19:01:49</dcterms:dateSubmitted>
+        <z:linkMode>1</z:linkMode>
+        <link:type>application/pdf</link:type>
+    </z:Attachment>
+    <bib:Article rdf:about="https://www.cambridge.org/core/journals/data-and-policy/article/redatam-format-and-its-challenges-for-data-access-and-information-creation-in-public-policy/DE6E8A10B67C8F9327AE4304DE117ED0">
+        <z:itemType>journalArticle</z:itemType>
+        <dcterms:isPartOf rdf:resource="urn:issn:2632-3249"/>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Sepúlveda</foaf:surname>
+                        <foaf:givenName>Mauricio Vargas</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Barkai</foaf:surname>
+                        <foaf:givenName>Lital</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <link:link rdf:resource="#item_59"/>
+        <dc:subject>
+           <z:AutomaticTag><rdf:value>data access</rdf:value></z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+           <z:AutomaticTag><rdf:value>data governance</rdf:value></z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+           <z:AutomaticTag><rdf:value>data management</rdf:value></z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+            <z:AutomaticTag>
+               <rdf:value>format specifications</rdf:value>
+            </z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+           <z:AutomaticTag><rdf:value>REDATAM</rdf:value></z:AutomaticTag>
+        </dc:subject>
+        <dc:title>The REDATAM format and its challenges for data access and information creation in public policy</dc:title>
+        <dcterms:abstract>The REDATAM (retrieval of data for small areas by microcomputer) statistical package and format, developed by ECLAC, has been a critical tool for disseminating census data across Latin America since the 1990s. However, significant limitations persist, including its proprietary nature, lack of documentation, and restricted flexibility for advanced data analysis. These challenges hinder the transformation of raw census data into actionable information for policymakers, researchers, and advocacy groups. To address these issues, we developed Open REDATAM, an open-source and multiplatform tool that converts REDATAM data into widely supported CSV files and native R and Python data structures. By providing integration with R and Python, Open REDATAM empowers users to work with the tools they already know and perform data analyses without leaving their R or Python window. Our work emphasizes the need for a REDATAM official format specification to further enable informed policy debates that can improve policy processes’ implementation and feedback.</dcterms:abstract>
+        <dc:date>2025/01</dc:date>
+        <z:language>en</z:language>
+        <z:libraryCatalog>Cambridge University Press</z:libraryCatalog>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://www.cambridge.org/core/journals/data-and-policy/article/redatam-format-and-its-challenges-for-data-access-and-information-creation-in-public-policy/DE6E8A10B67C8F9327AE4304DE117ED0</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2025-09-15 19:01:53</dcterms:dateSubmitted>
+        <bib:pages>e18</bib:pages>
+    </bib:Article>
+    <bib:Journal rdf:about="urn:issn:2632-3249">
+        <prism:volume>7</prism:volume>
+        <dc:title>Data &amp; Policy</dc:title>
+        <dc:identifier>DOI 10.1017/dap.2025.4</dc:identifier>
+        <dc:identifier>ISSN 2632-3249</dc:identifier>
+    </bib:Journal>
+    <z:Attachment rdf:about="#item_59">
+        <z:itemType>attachment</z:itemType>
+        <dc:title>Full Text PDF</dc:title>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://www.cambridge.org/core/services/aop-cambridge-core/content/view/DE6E8A10B67C8F9327AE4304DE117ED0/S2632324925000045a.pdf/div-class-title-the-redatam-format-and-its-challenges-for-data-access-and-information-creation-in-public-policy-div.pdf</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2025-09-15 19:01:55</dcterms:dateSubmitted>
+        <z:linkMode>1</z:linkMode>
+        <link:type>application/pdf</link:type>
+    </z:Attachment>
+    <bib:Article rdf:about="https://www.sciencedirect.com/science/article/pii/S2352711025000548">
+        <z:itemType>journalArticle</z:itemType>
+        <dcterms:isPartOf rdf:resource="urn:issn:2352-7110"/>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Sepulveda</foaf:surname>
+                        <foaf:givenName>Mauricio Vargas</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Malamud</foaf:surname>
+                        <foaf:givenName>Jonathan Schneider</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <link:link rdf:resource="#item_64"/>
+        <dc:subject>
+           <z:AutomaticTag><rdf:value>Armadillo</rdf:value></z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+           <z:AutomaticTag><rdf:value>Benchmarking</rdf:value></z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+           <z:AutomaticTag><rdf:value>C++</rdf:value></z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+           <z:AutomaticTag><rdf:value>Linear algebra</rdf:value></z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+           <z:AutomaticTag><rdf:value>R</rdf:value></z:AutomaticTag>
+        </dc:subject>
+        <dc:title>cpp11armadillo: An R package to use the Armadillo C++ library</dc:title>
+        <dcterms:abstract>This article introduces ‘cpp11armadillo’, an R package that integrates the highly efficient Armadillo C++ linear algebra library with R through the ‘cpp11’ interface. Designed to offer significant performance improvements for computationally intensive tasks, ‘cpp11armadillo’ simplifies the process of integrating C++ code into R. This package is particularly suited for R users requiring efficient matrix operations, especially in cases where vectorization is not possible. Our benchmarks demonstrate substantial speed gains over native R functions and Rcpp-based setups.</dcterms:abstract>
+        <dc:date>2025-05-01</dc:date>
+        <z:shortTitle>cpp11armadillo</z:shortTitle>
+        <z:libraryCatalog>ScienceDirect</z:libraryCatalog>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://www.sciencedirect.com/science/article/pii/S2352711025000548</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2025-09-15 19:01:59</dcterms:dateSubmitted>
+        <bib:pages>102087</bib:pages>
+    </bib:Article>
+    <bib:Journal rdf:about="urn:issn:2352-7110">
+        <prism:volume>30</prism:volume>
+        <dc:title>SoftwareX</dc:title>
+        <dc:identifier>DOI 10.1016/j.softx.2025.102087</dc:identifier>
+        <dcterms:alternative>SoftwareX</dcterms:alternative>
+        <dc:identifier>ISSN 2352-7110</dc:identifier>
+    </bib:Journal>
+    <z:Attachment rdf:about="#item_64">
+        <z:itemType>attachment</z:itemType>
+        <dc:title>PDF</dc:title>
+        <link:type>application/pdf</link:type>
+    </z:Attachment>
+    <bib:Article rdf:about="https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0326090">
+        <z:itemType>journalArticle</z:itemType>
+        <dcterms:isPartOf rdf:resource="urn:issn:1932-6203"/>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Sepulveda</foaf:surname>
+                        <foaf:givenName>Mauricio Vargas</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <link:link rdf:resource="#item_62"/>
+        <dc:subject>
+           <z:AutomaticTag><rdf:value>Algorithms</rdf:value></z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+            <z:AutomaticTag>
+               <rdf:value>Computer and information sciences</rdf:value>
+            </z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+            <z:AutomaticTag>
+               <rdf:value>Computer hardware</rdf:value>
+            </z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+           <z:AutomaticTag><rdf:value>Econometrics</rdf:value></z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+            <z:AutomaticTag>
+               <rdf:value>Genome complexity</rdf:value>
+            </z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+            <z:AutomaticTag>
+               <rdf:value>Statistical distributions</rdf:value>
+            </z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+           <z:AutomaticTag><rdf:value>Supercomputers</rdf:value></z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+           <z:AutomaticTag><rdf:value>Test statistics</rdf:value></z:AutomaticTag>
+        </dc:subject>
+        <dc:title>Kendallknight: An R package for efficient implementation of Kendall’s correlation coefficient computation</dc:title>
+        <dcterms:abstract>The kendallknight package introduces an efficient implementation of Kendall’s correlation coefficient computation, significantly improving the processing time for large datasets without sacrificing accuracy. The kendallknight package, following Knight (1966) and posterior literature, reduces the time complexity resulting in drastic reductions in computation time, transforming operations that would take minutes or hours into milliseconds or minutes, while maintaining precision and correctly handling edge cases and errors. The package is particularly advantageous in econometric and statistical contexts where rapid and accurate calculation of Kendall’s correlation coefficient is desirable. Benchmarks demonstrate substantial performance gains over the Base R implementation, especially for large datasets.</dcterms:abstract>
+        <dc:date>Jun 18, 2025</dc:date>
+        <z:language>en</z:language>
+        <z:shortTitle>Kendallknight</z:shortTitle>
+        <z:libraryCatalog>PLoS Journals</z:libraryCatalog>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0326090</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2025-09-15 19:02:03</dcterms:dateSubmitted>
+        <dc:description>Publisher: Public Library of Science</dc:description>
+        <bib:pages>e0326090</bib:pages>
+    </bib:Article>
+    <bib:Journal rdf:about="urn:issn:1932-6203">
+        <prism:volume>20</prism:volume>
+        <dc:title>PLOS ONE</dc:title>
+        <dc:identifier>DOI 10.1371/journal.pone.0326090</dc:identifier>
+        <prism:number>6</prism:number>
+        <dcterms:alternative>PLOS ONE</dcterms:alternative>
+        <dc:identifier>ISSN 1932-6203</dc:identifier>
+    </bib:Journal>
+    <z:Attachment rdf:about="#item_62">
+        <z:itemType>attachment</z:itemType>
+        <dc:title>Full Text PDF</dc:title>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://journals.plos.org/plosone/article/file?id=10.1371/journal.pone.0326090&amp;type=printable</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2025-09-15 19:02:03</dcterms:dateSubmitted>
+        <z:linkMode>1</z:linkMode>
+        <link:type>application/pdf</link:type>
+    </z:Attachment>
+</rdf:RDF>

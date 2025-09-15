@@ -2,18 +2,21 @@
 % Please edit documentation in R/write.r
 \name{write_bib}
 \alias{write_bib}
-\title{Write a BIB export file}
+\title{Simple writer: write BibTeX from a data.frame of Zotero-like entries}
 \usage{
-write_bib(bibs, path)
+write_bib(entry, fout)
 }
 \arguments{
-\item{bibs}{A \code{bibentry} object containing the bibliography entries.}
+\item{entry}{A data.frame where each row is a Zotero-like record (columns
+such as title, creators/authors, year, journal, publisher, doi, url,
+note/abstract, bibtype, key). Only a data.frame is supported by this
+simplified helper.}
 
-\item{path}{The file path where the BibTeX entries will be saved.}
+\item{fout}{Output filename (e.g. "file.bib").}
 }
 \value{
-None. The function writes the output directly to the specified file.
+Invisibly TRUE on success.
 }
 \description{
-Write a BibTeX file with additional fields used by Web of Science/Clarivate for import.
+Simple writer: write BibTeX from a data.frame of Zotero-like entries
 }

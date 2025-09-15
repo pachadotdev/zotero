@@ -1,0 +1,120 @@
+TY  - JOUR
+TI  - Economiccomplexity: Computational Methods for Economic Complexity
+AU  - Vargas, Mauricio
+T2  - Journal of Open Source Software
+AB  - Vargas, (2020). Economiccomplexity: Computational Methods for Economic Complexity. Journal of Open Source Software, 5(46), 1866, https://doi.org/10.21105/joss.01866
+DA  - 2020/02/19/
+PY  - 2020
+DO  - 10.21105/joss.01866
+DP  - joss.theoj.org
+VL  - 5
+IS  - 46
+SP  - 1866
+LA  - en
+SN  - 2475-9066
+ST  - Economiccomplexity
+UR  - https://joss.theoj.org/papers/10.21105/joss.01866
+Y2  - 2025/09/15/19:01:43
+L1  - https://joss.theoj.org/papers/10.21105/joss.01866.pdf
+ER  - 
+
+TY  - JOUR
+TI  - Gravity: Estimation Methods for Gravity Models in R
+AU  - Wölwer, Anna-Lena
+AU  - Burgard, Jan Pablo
+AU  - Kunst, Joshua
+AU  - Vargas, Mauricio
+T2  - Journal of Open Source Software
+AB  - Wölwer et al., (2018). Gravity: Estimation Methods for Gravity Models in R. Journal of Open Source Software, 3(31), 1038, https://doi.org/10.21105/joss.01038
+DA  - 2018/11/19/
+PY  - 2018
+DO  - 10.21105/joss.01038
+DP  - joss.theoj.org
+VL  - 3
+IS  - 31
+SP  - 1038
+LA  - en
+SN  - 2475-9066
+ST  - Gravity
+UR  - https://joss.theoj.org/papers/10.21105/joss.01038
+Y2  - 2025/09/15/19:01:48
+L1  - https://joss.theoj.org/papers/10.21105/joss.01038.pdf
+ER  - 
+
+TY  - JOUR
+TI  - The REDATAM format and its challenges for data access and information creation in public policy
+AU  - Sepúlveda, Mauricio Vargas
+AU  - Barkai, Lital
+T2  - Data & Policy
+AB  - The REDATAM (retrieval of data for small areas by microcomputer) statistical package and format, developed by ECLAC, has been a critical tool for disseminating census data across Latin America since the 1990s. However, significant limitations persist, including its proprietary nature, lack of documentation, and restricted flexibility for advanced data analysis. These challenges hinder the transformation of raw census data into actionable information for policymakers, researchers, and advocacy groups. To address these issues, we developed Open REDATAM, an open-source and multiplatform tool that converts REDATAM data into widely supported CSV files and native R and Python data structures. By providing integration with R and Python, Open REDATAM empowers users to work with the tools they already know and perform data analyses without leaving their R or Python window. Our work emphasizes the need for a REDATAM official format specification to further enable informed policy debates that can improve policy processes’ implementation and feedback.
+DA  - 2025/01//
+PY  - 2025
+DO  - 10.1017/dap.2025.4
+DP  - Cambridge University Press
+VL  - 7
+SP  - e18
+LA  - en
+SN  - 2632-3249
+UR  - https://www.cambridge.org/core/journals/data-and-policy/article/redatam-format-and-its-challenges-for-data-access-and-information-creation-in-public-policy/DE6E8A10B67C8F9327AE4304DE117ED0
+Y2  - 2025/09/15/19:01:53
+L1  - https://www.cambridge.org/core/services/aop-cambridge-core/content/view/DE6E8A10B67C8F9327AE4304DE117ED0/S2632324925000045a.pdf/div-class-title-the-redatam-format-and-its-challenges-for-data-access-and-information-creation-in-public-policy-div.pdf
+KW  - data access
+KW  - data governance
+KW  - data management
+KW  - format specifications
+KW  - REDATAM
+ER  - 
+
+TY  - JOUR
+TI  - cpp11armadillo: An R package to use the Armadillo C++ library
+AU  - Sepulveda, Mauricio Vargas
+AU  - Malamud, Jonathan Schneider
+T2  - SoftwareX
+AB  - This article introduces ‘cpp11armadillo’, an R package that integrates the highly efficient Armadillo C++ linear algebra library with R through the ‘cpp11’ interface. Designed to offer significant performance improvements for computationally intensive tasks, ‘cpp11armadillo’ simplifies the process of integrating C++ code into R. This package is particularly suited for R users requiring efficient matrix operations, especially in cases where vectorization is not possible. Our benchmarks demonstrate substantial speed gains over native R functions and Rcpp-based setups.
+DA  - 2025/05/01/
+PY  - 2025
+DO  - 10.1016/j.softx.2025.102087
+DP  - ScienceDirect
+VL  - 30
+SP  - 102087
+J2  - SoftwareX
+SN  - 2352-7110
+ST  - cpp11armadillo
+UR  - https://www.sciencedirect.com/science/article/pii/S2352711025000548
+Y2  - 2025/09/15/19:01:59
+KW  - Armadillo
+KW  - Benchmarking
+KW  - C++
+KW  - Linear algebra
+KW  - R
+ER  - 
+
+TY  - JOUR
+TI  - Kendallknight: An R package for efficient implementation of Kendall’s correlation coefficient computation
+AU  - Sepulveda, Mauricio Vargas
+T2  - PLOS ONE
+AB  - The kendallknight package introduces an efficient implementation of Kendall’s correlation coefficient computation, significantly improving the processing time for large datasets without sacrificing accuracy. The kendallknight package, following Knight (1966) and posterior literature, reduces the time complexity resulting in drastic reductions in computation time, transforming operations that would take minutes or hours into milliseconds or minutes, while maintaining precision and correctly handling edge cases and errors. The package is particularly advantageous in econometric and statistical contexts where rapid and accurate calculation of Kendall’s correlation coefficient is desirable. Benchmarks demonstrate substantial performance gains over the Base R implementation, especially for large datasets.
+DA  - 2025/06/18/
+PY  - 2025
+DO  - 10.1371/journal.pone.0326090
+DP  - PLoS Journals
+VL  - 20
+IS  - 6
+SP  - e0326090
+J2  - PLOS ONE
+LA  - en
+SN  - 1932-6203
+ST  - Kendallknight
+UR  - https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0326090
+Y2  - 2025/09/15/19:02:03
+L1  - https://journals.plos.org/plosone/article/file?id=10.1371/journal.pone.0326090&type=printable
+KW  - Algorithms
+KW  - Computer and information sciences
+KW  - Computer hardware
+KW  - Econometrics
+KW  - Genome complexity
+KW  - Statistical distributions
+KW  - Supercomputers
+KW  - Test statistics
+ER  - 
+
