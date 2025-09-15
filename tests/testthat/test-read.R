@@ -23,42 +23,60 @@ test_that("read from exported files", {
     if (!is.na(td)) {
       df_dois <- sapply(df$doi, norm_doi)
       matches <- which(!is.na(df_dois) & df_dois == td)
-      if (length(matches) >= 1) return(matches[1])
+      if (length(matches) >= 1) {
+        return(matches[1])
+      }
     }
     tt <- norm_title(target_row$title)
     if (!is.na(tt)) {
       # exact normalized match first
       matches <- which(sapply(df$title, function(x) identical(norm_title(x), tt)))
-      if (length(matches) >= 1) return(matches[1])
+      if (length(matches) >= 1) {
+        return(matches[1])
+      }
       # then try agrep fuzzy match on normalized titles
-      df_titles <- sapply(df$title, function(x) { tt2 <- norm_title(x); if (is.na(tt2)) "" else tt2 })
+      df_titles <- sapply(df$title, function(x) {
+        tt2 <- norm_title(x)
+        if (is.na(tt2)) "" else tt2
+      })
       cand <- agrep(tt, df_titles, max.distance = 0.2, ignore.case = TRUE)
-      if (length(cand) >= 1) return(cand[1])
+      if (length(cand) >= 1) {
+        return(cand[1])
+      }
     }
     # try matching by URL
     tu <- norm_url(target_row$url)
     if (!is.na(tu)) {
       matches <- which(sapply(df$url, function(x) identical(norm_url(x), tu)))
-      if (length(matches) >= 1) return(matches[1])
+      if (length(matches) >= 1) {
+        return(matches[1])
+      }
     }
     # try matching by key
     if (!is.null(target_row$key) && !is.na(target_row$key) && nzchar(as.character(target_row$key))) {
       k <- as.character(target_row$key)
       matches <- which(!is.na(df$key) & as.character(df$key) == k)
-      if (length(matches) >= 1) return(matches[1])
+      if (length(matches) >= 1) {
+        return(matches[1])
+      }
     }
     # fuzzy title match as last resort (agrep)
     if (!is.na(tt)) {
-      df_titles <- sapply(df$title, function(x) { tt2 <- norm_title(x); if (is.na(tt2)) "" else tt2 })
+      df_titles <- sapply(df$title, function(x) {
+        tt2 <- norm_title(x)
+        if (is.na(tt2)) "" else tt2
+      })
       cand <- agrep(tt, df_titles, max.distance = 0.12, ignore.case = TRUE)
-      if (length(cand) >= 1) return(cand[1])
+      if (length(cand) >= 1) {
+        return(cand[1])
+      }
     }
     NA_integer_
   }
 
   # Row-wise comparisons ----------------------------------------------------
   for (i in seq_len(nrow(drdf))) {
-    row_rdf <- drdf[i, , drop=FALSE]
+    row_rdf <- drdf[i, , drop = FALSE]
     j_bib <- find_match(row_rdf, dbib)
     j_ris <- find_match(row_rdf, dris)
     expect_false(is.na(j_bib), info = paste("no match in bib for row", i))
@@ -97,16 +115,18 @@ test_that("read from exported files", {
     }
 
     # compare year if present
-    y0 <- as.character(row_rdf$year); y1 <- as.character(dbib$year[j_bib]); y2 <- as.character(dris$year[j_ris])
-    yvals <- unique(na.omit(c(y0,y1,y2)))
+    y0 <- as.character(row_rdf$year)
+    y1 <- as.character(dbib$year[j_bib])
+    y2 <- as.character(dris$year[j_ris])
+    yvals <- unique(na.omit(c(y0, y1, y2)))
     if (length(yvals) > 0) expect_true(length(yvals) == 1, info = paste("year mismatch row", i))
 
     # compare authors by last-name sets
-  # authors are normalized by the reader to 'Family, Given' separated by '; '
-  a0 <- extract_last_names(as.character(row_rdf$author))
-  a1 <- extract_last_names(as.character(dbib$author[j_bib]))
-  a2 <- extract_last_names(as.character(dris$author[j_ris]))
-    aset <- unique(tolower(c(a0,a1,a2)))
+    # authors are normalized by the reader to 'Family, Given' separated by '; '
+    a0 <- extract_last_names(as.character(row_rdf$author))
+    a1 <- extract_last_names(as.character(dbib$author[j_bib]))
+    a2 <- extract_last_names(as.character(dris$author[j_ris]))
+    aset <- unique(tolower(c(a0, a1, a2)))
     if (length(aset) > 0 && length(setdiff(aset, "")) > 0) {
       expect_true(setequal(tolower(a0), tolower(a1)), info = paste("author mismatch rdf vs bib row", i))
       expect_true(setequal(tolower(a0), tolower(a2)), info = paste("author mismatch rdf vs ris row", i))
